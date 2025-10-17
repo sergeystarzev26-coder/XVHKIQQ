@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
+
 <body>
     <form>
         <input type="text" name="num1"></p>
@@ -15,7 +17,7 @@
     if (isset($_GET["num1"]) && isset($_GET["num2"])) {
         $a = $_GET["num1"];
         $b = $_GET["num2"];
-        function NOD($a, $b) 
+        function NOD($a, $b)
         {
             while ($b != 0) {
                 $temp = $b;
@@ -30,4 +32,5 @@
     }
     ?>
 </body>
+
 </html>
